@@ -64,4 +64,8 @@
         <item>com.android.location.fused</item>
     </string-array>
 
+    <!-- True if the device requires AppWidgetService even if it does not have
+         the PackageManager.FEATURE_APP_WIDGETS feature -->
+    <bool name="config_enableAppWidgetService">true</bool>
+
 </resources>
