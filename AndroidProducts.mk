@@ -1,0 +1,3 @@
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/rpi4pad.mk
+
+COMMON_LUNCH_CHOICES := rpi4pad-eng
