@@ -1,3 +1,8 @@
 <resources>
+	<bool name="profile_supported_a2dp">true</bool>
+    <bool name="profile_supported_a2dp_sink">false</bool>
     <bool name="profile_supported_hs_hfp">false</bool>
+    <bool name="profile_supported_hfpclient">true</bool>
+    <bool name="profile_supported_pbapclient">true</bool>
+    <bool name="profile_supported_gatt">true</bool>
 </resources>

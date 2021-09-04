@@ -68,4 +68,7 @@
          the PackageManager.FEATURE_APP_WIDGETS feature -->
     <bool name="config_enableAppWidgetService">true</bool>
 
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_supportSystemNavigationKeys">true</bool>
+
 </resources>

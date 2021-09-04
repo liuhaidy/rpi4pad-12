@@ -143,4 +143,8 @@ PRODUCT_AAPT_CONFIG ?= normal large xlarge hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_CHARACTERISTICS := tablet
 
+PLATFORM_PATH := device/arpi/rpi4pad
+# Properties
+TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
